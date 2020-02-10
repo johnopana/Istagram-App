@@ -1,7 +1,7 @@
 
 # Instagram-App
 #### Application to post images like other peoples images after logging in to the application.
-#### By **OPana John;
+#### By **OPANA JOHN;
 
 ## Description
 This is an app that allows users to like post and comment on other people posts
