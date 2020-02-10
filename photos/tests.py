@@ -5,7 +5,7 @@ from .models import Profile, Image, User, Comments
 class ProfileTest(TestCase):
 
     def setUp(self):
-        self.new_user = User(username='Titus', email='titusouko@gmail.com', password='1234')
+        self.new_user = User(username='John', email='johnopana2016@gmail.com', password='kisumucity2016')
         self.new_user.save()
         self.new_profile = Profile(photo='image.png', bio='generous', user=self.new_user)
 
@@ -32,7 +32,7 @@ class ProfileTest(TestCase):
 class ImageTest(TestCase):
 
     def setUp(self):
-        self.new_user = User(username='Titus', email='titusouko@gmail.com', password='1234')
+        self.new_user = User(username='John', email='johnopana2016@gmail.com', password='kisumucity2016')
         self.new_user.save()
         self.new_profile = Profile(photo='image.png', bio='generous', user=self.new_user)
         self.new_profile.save()
@@ -55,7 +55,7 @@ class ImageTest(TestCase):
 class CommentsTest(TestCase):
 
     def setUp(self):
-        self.new_user = User(username='Titus', email='titusouko@gmail.com', password='1234')
+        self.new_user = User(username='John', email='johnopana2016@gmail.com', password='kisumucity2016')
         self.new_user.save()
         self.new_image = Image(name='Moringa', image='moringa.jpg', caption='wonderful place to be', profile=self.new_user, like_add=0)
         self.new_image.save()
